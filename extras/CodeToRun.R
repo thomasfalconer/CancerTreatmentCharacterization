@@ -27,7 +27,7 @@ maxCores <- parallel::detectCores()
 
 # Minimum cell count when exporting data:
 minCellCount <- 10
-
+#teaching thomas 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "sql server",
                                                                 server = Sys.getenv("PDW_SERVER"),
